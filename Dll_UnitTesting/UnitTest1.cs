@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
-namespace CalculatorTest
+namespace Dll_UnitTesting
 {
     [TestClass]
     public class UnitTest1
