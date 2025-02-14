@@ -21,5 +21,13 @@ namespace Dll_UnitTesting
             int result = DllFile.GetQuantityForProduct(3, 1, 15, Convert.ToInt32(null), 45);
             Assert.AreNotEqual(null, result);
         }
+
+        [TestMethod]
+        public void TestGetQuantityForProduct_TypeOfResult()
+        {
+            int result = DllFile.GetQuantityForProduct(3, 3, 10, 10, 10);
+            Assert.IsInstanceOfType(result, typeof(int));
+        }
+
     }
 }
