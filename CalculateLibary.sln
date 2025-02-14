@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateLibary", "CalculateLibary\CalculateLibary.csproj", "{3C1AA545-73B2-42AC-B15F-778EF38339CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dll_UnitTesting", "Dll_UnitTesting\Dll_UnitTesting.csproj", "{DACE233E-54FD-43A5-8E22-0B13AD26671D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3C1AA545-73B2-42AC-B15F-778EF38339CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C1AA545-73B2-42AC-B15F-778EF38339CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C1AA545-73B2-42AC-B15F-778EF38339CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DACE233E-54FD-43A5-8E22-0B13AD26671D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DACE233E-54FD-43A5-8E22-0B13AD26671D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DACE233E-54FD-43A5-8E22-0B13AD26671D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DACE233E-54FD-43A5-8E22-0B13AD26671D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
