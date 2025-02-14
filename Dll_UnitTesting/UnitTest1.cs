@@ -14,5 +14,12 @@ namespace Dll_UnitTesting
             int expected = -1;
             Assert.AreNotEqual(expected, result);
         }
+
+        [TestMethod]
+        public void TestGetQuantityForProduct_AreEqualResultWhenWidthIsNull()
+        {
+            int result = DllFile.GetQuantityForProduct(3, 1, 15, Convert.ToInt32(null), 45);
+            Assert.AreNotEqual(null, result);
+        }
     }
 }
